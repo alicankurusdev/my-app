@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/header/Header";
+import Content from "./components/content/Content";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      
+    <div>
+      <Header />
+      <Content/>
     </div>
   );
-}
+};
 
 export default App;
